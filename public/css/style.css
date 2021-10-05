@@ -1,0 +1,542 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+nav {
+  color: #272343;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: fixed;
+}
+.div-bg {
+  background-color: #FFAF7A;
+}
+
+li .nav-link {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: white;
+}
+li  :hover {
+  color:#FFAF7A;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+.navbar-color {
+  background-color: #FF4500;
+  margin-bottom: 0;
+}
+.welcome-message {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 2.5rem;
+  font-weight: 200;
+  font-size: 20px;
+}
+#logo {
+  left: 0rem;
+  background-color: transparent;
+}
+#hero {
+  background-image: linear-gradient(to right, rgba(255, 255, 0, 0.3),rgba(255, 255, 0, 0,6),rgba(255, 255, 0, 0.6)),url('./img/road.webp') ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 70vh;
+  position: relative;
+  margin-right: 0px;
+}
+
+.header-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  height: 90vh;
+  width: 100%;
+  margin-right: 0;
+}
+.top-right {
+  position: relative;
+  top: -35rem;
+  left: 5rem;
+}
+.paragraph {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  line-height: 2.5rem;
+  font-weight: 200;
+  font-size: 20px;
+}
+.side-icon {
+  color: #FF4500;
+}
+::placeholder {
+  font-size: 16px;
+}
+form .input {
+  border: 1px #272343;
+}
+
+form .input :focus {
+  border: 2px solid #FF4500;
+}
+
+form {
+  background-color:#FF9D5C;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: "Roboto";
+  border: 2px solid #FF4500;
+  color: white;
+}
+.form-btn {
+  background-color: red;
+  border: 1px solid red;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+.header-text1 {
+  position: relative;
+}
+.header-text {
+  position: absolute;
+  font-size: 45px;
+  font-family: "Big Shoulders Display", sans-serif;
+  top: 10%;
+  color: #FF4500;
+}
+.header-txt {
+  position: absolute;
+  font-size: 45px;
+  font-family: "Big Shoulders Display", sans-serif;
+  top: 10%;
+  color: #FF4500;
+}
+.loader {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  z-index: 1000;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #FF4500;
+  border-right: 16px solid #FF9D5C;
+  border-bottom: 16px solid #FF4500;
+  border-left: 16px solid #FFAF7A;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+.heading {
+  font-size: 30px;
+  font-family:  sans-serif;
+  font-weight: 700;
+  color:#FF4500;
+  text-transform: uppercase;
+  word-spacing: 3pt;
+  letter-spacing: 0.5pt;
+  text-align: center;
+}
+.welcomeImg {
+  height: 150px;
+  width: 150px;
+}
+.serviceImg {
+  width: 18rem;
+  height: 12rem;
+}
+footer {
+  padding-top: 4vh;
+  background-color: #FF4500;
+  color: black;
+  font-size: 2.5vh;
+  font-family: "Roboto", "sans-serif";
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+.list {
+  color: black;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+.warranty {
+  height: 480px;
+  width: 640px;
+}
+.form-phone {
+  display: none;
+}
+.btn-primary {
+  color: black;
+  background-color:red;
+  border: red;
+  font-size: 18px;
+  width: 13rem;
+  height: 3rem;
+  text-shadow: none;
+  margin: 3px;
+}
+
+hr {
+  background-color:#f3f3f3;
+}
+.card-title {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color:#FF4500;
+}
+.card-text {
+  color: white;
+}
+#menu {
+  right: 2%;
+  top: 25%;
+  position: fixed;
+  z-index: 1;
+}
+
+#menu1 {
+  right: 2%;
+  top: 34%;
+  position: fixed;
+  z-index: 1;
+}
+
+#bottomNav {
+  display: none;
+}
+.batteryProd {
+  height: 75vh;
+  width: 75vh;
+}
+.battery {
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  text-shadow: #4286f4;
+  color: #47484c;
+  text-decoration: underline;
+}
+.glyph {
+  font-size: 40px;
+}
+
+.text-danger {
+  font-size: 12px;
+}
+.blog-heading {
+  font-size: 2rem;
+  font-family: "Big Shoulders Display";
+  color: #FF4500;
+  word-spacing: 3pt;
+  letter-spacing: 0.5pt;
+}
+.blog-list-heading {
+  font-size: 1.6rem;
+  font-family: "Big Shoulders Display";
+  margin-top: 3vw;
+  color: #FF4500;
+}
+.blog-paragraph-heading {
+  font-size: 1.5rem;
+  font-family: "Roboto";
+  margin-top: 2vw;
+  color: #252220;
+}
+.blog-img {
+  height: 32rem;
+  width: 100%;
+}
+.list-group-item {
+  border-top: 2px solid #FF4500;
+}
+.haks {
+  height: 40rem;
+  width: 60rem;
+}
+.autob {
+  height: 9rem;
+  width: 9rem;
+}
+
+.card {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  margin-top: 2rem;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.postCard {
+  background-color: #FF9D5C;
+  box-shadow: 10px 10px 10px #47484c;
+  border-bottom-left-radius: 50px;
+  height: 50rem;
+}
+.card-img-top {
+  width: 100%;
+  height: 18rem;
+}
+.brandImg {
+display: flexbox;
+flex-direction: column;
+flex-wrap: wrap;
+height:60px;
+width: 79px;
+margin-top: 5px;
+margin-bottom: 5px;
+margin-left: 5px;
+margin-right: 5px;
+border: 1px solid #FF4500;
+}
+.brandCol {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.bottomNav {
+  display: none;
+}
+.bmw {
+  height: 40rem;
+  width: 40rem;
+}
+
+@media(max-width: 992px) {
+  .form-phone {
+    align-items: center;
+    display: inline-block;
+  }
+  .formtab {
+    display: none;
+  }
+
+}
+@media(max-width: 768px) {
+  .header-img {
+    height: 75vh;
+    width: 100%;
+  }
+  .top-right {
+    position: absolute;
+    top: -5rem;
+    left: 1rem;
+  }
+  .top-left {
+    display: none;
+  }
+  .nav1 {
+    font-size: 15px;
+  }
+  .heading {
+    font-size: 28px;
+  }
+  .form-phone {
+    display: none;
+  }
+  #bottomNav {
+    display: none;
+  }
+  #botNav {
+    display: none;
+  }
+  #navMob {
+    display: none;
+  }
+  .paragraph {
+    font-weight: 300;
+  }
+  .batteryProd {
+    height: 60vh;
+    width: 60vh;
+  }
+  .battery {
+    font-size: 25px;
+  }
+  .glyph {
+    font-size: 35px;
+  }
+  footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  .card {
+    margin-left: 0;
+  }
+  .blog-paragraph-heading {
+    font-size: 1.7rem;
+  }
+  .bottomNav {
+    display: none;
+  }
+  .welcomeImg {
+    height: 80px;
+    width: 80px;
+  }
+  .bmw {
+    height: 30rem;
+    width: 30rem;
+  }
+}
+@media(max-width: 576px) {
+  .header-img {
+    height: 50vh;
+    margin: 0;
+  }
+  .top-right {
+    position: relative;
+    top: -1rem;
+    left: 0.1rem;
+  }
+  .top-left {
+    display: none;
+  }
+  .form-phone {
+    background: url("./img/whatsappbg.jpg");
+    display: inline-block;
+  }
+  .paragraph {
+    font-size: 25px;
+    font-weight: 300;
+  }
+  .list {
+    font-size: 15px;
+  }
+  ::placeholder {
+    font-size: 16px;
+  }
+  .small {
+    font-size: 15px;
+  }
+  .nav1 {
+    font-size: 20px;
+  }
+  .heading {
+    font-size: 23px;
+  }
+  .header-text {
+    font-size: 25px;
+    color: white;
+  }
+  .btn-primary {
+    font-size: 14px;
+    width: 10rem;
+    height: 2.6rem;
+    text-shadow: none;
+    margin: 3px;
+  }
+  .flex-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .fontSize {
+    font-size: 12px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  #menu {
+    display:none;
+  }
+  #menu1 {
+   display:none;
+  }
+  .fixed-bottom {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+    background-color:#FF4500;
+  }
+  .bottomNav {
+    display: block;
+    color:white;
+
+  }
+  .bottomNav :hover {
+    color:#FF9D5C;
+  }
+  .bottomNav :active {
+    color:#FF9D5C;
+  }
+
+
+  .batteryProd {
+    height: 50vh;
+    width: 50vh;
+  }
+  footer {
+    position: relative;
+    padding-bottom: 150px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  .battery {
+    font-size: 20px;
+  }
+  .glyph {
+    font-size: 30px;
+  }
+  .blog-img {
+    height: 175px;
+    width: 100%;
+  }
+  .card {
+    margin-left: 0;
+  }
+  .blog-paragraph-heading {
+    font-size: 1.4rem;
+  }
+  .welcomeImg {
+    height: 25px;
+    width: 50px;
+  }
+  .bmw {
+    height: 18rem;
+    width: 18rem;
+  }
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes mymove {
+  from {
+    left: 0;
+  }
+  to {
+    left: 200px;
+  }
+}
+

@@ -1,0 +1,3 @@
+User-Agent: *
+Sitemap: https://emirates-car-batteries.herokuapp.com/sitemap.xml
+Allow : *
